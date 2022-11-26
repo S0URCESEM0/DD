@@ -571,13 +571,15 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
 **➪ ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ ⏎
+
 ➪ Python : 3.9
-➪ sedthon : 1.1
+➪ sedthon : 1.3
 ➪ Ping : `{ms}`
 ➪ Date : `{m9zpi}`
 ➪ Id : `{event.sender_id}`
 ➪ Dev : @DEV_SAMIR
 ➪ Source Ch : @SEMO8L
+
 ➪ ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ ⏎**
 ''')
 
