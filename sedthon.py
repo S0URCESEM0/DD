@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name="@N1111V"
+            first_name="@DEV_SAMIR"
         )
     )
 
@@ -240,7 +240,7 @@ async def _(event):
     time_bio.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            about="@N1111V"
+            about="@DEV_SAMIR"
         )
     )
 
@@ -570,12 +570,15 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ تـوب سـورس
-☆ الاصدار : 1.2
-☆ البنك : `{ms}`
-☆ التاريخ : `{m9zpi}`
-☆ الايدي : `{event.sender_id}`
-☆ تـوب سـورس : @N1111V**
+**➪ ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ ⏎
+➪ Python : 3.9
+➪ sedthon : 1.1
+➪ Ping : `{ms}`
+➪ Date : `{m9zpi}`
+➪ Id : `{event.sender_id}`
+➪ Dev : @DEV_SAMIR
+➪ Source Ch : @SEMO8L
+➪ ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ ⏎**
 ''')
 
 
@@ -668,8 +671,10 @@ async def _(event):
 async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
-    The best !
-      - @IIIT5
+    **[+] 𝙳𝙴𝚅 𝚂𝙰𝙼𝙸𝚁 
+    [+] 𝙼𝙰𝚇 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : 1.3
+    [+] 𝙰𝙲𝙲𝙾𝚄𝙽𝚃  : @DEV_SAMIR
+    [+] 𝙲𝙷𝙰𝙽𝙽𝙴𝙻  : @SEMO8L**
 ''', reply_to=event)
 
 
@@ -677,8 +682,10 @@ async def _(event):
 async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
-    The best !
-      - @IIIT5
+    **[+] 𝙳𝙴𝚅 𝚂𝙰𝙼𝙸𝚁 
+    [+] 𝙼𝙰𝚇 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : 1.3
+    [+] 𝙰𝙲𝙲𝙾𝚄𝙽𝚃  : @DEV_SAMIR
+    [+] 𝙲𝙷𝙰𝙽𝙽𝙴𝙻  : @SEMO8L**
 ''', reply_to=event)
 
 
@@ -686,8 +693,10 @@ async def _(event):
 async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
-    The best !
-      - @IIIT5
+    **[+] 𝙳𝙴𝚅 𝚂𝙰𝙼𝙸𝚁 
+    [+] 𝙼𝙰𝚇 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : 1.3
+    [+] 𝙰𝙲𝙲𝙾𝚄𝙽𝚃  : @DEV_SAMIR
+    [+] 𝙲𝙷𝙰𝙽𝙽𝙴𝙻  : @SEMO8L**
 ''', reply_to=event)
 
 
@@ -695,8 +704,10 @@ async def _(event):
 async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
-    The best !
-      - @IIITT
+    **[+] 𝙳𝙴𝚅 𝚂𝙰𝙼𝙸𝚁 
+    [+] 𝙼𝙰𝚇 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : 1.3
+    [+] 𝙰𝙲𝙲𝙾𝚄𝙽𝚃  : @DEV_SAMIR
+    [+] 𝙲𝙷𝙰𝙽𝙽𝙴𝙻  : @SEMO8L**
 ''', reply_to=event)
 
 
@@ -708,8 +719,13 @@ async def _(event):
     res = (end - start).microseconds / 1000
     await event.edit(f"""
 `-- -- -- -- -- -- -- -- -- --`
+ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ
+
 - تمت الاستجابة
+
 - البنك : `{res}`
+
+ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ
 `-- -- -- -- -- -- -- -- -- --`"""
                      )
 
@@ -718,7 +734,11 @@ async def _(event):
 async def _(event):
     await event.edit(f"""
 -- -- -- -- -- -- -- -- --
+ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ
+
 السنة : {y}
+
+ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ
 -- -- -- -- -- -- -- -- --"""
                      )
 
@@ -727,7 +747,11 @@ async def _(event):
 async def _(event):
     await event.edit(f"""
 -- -- -- -- -- -- -- -- --
+ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ
+
 الشهر : {m}
+
+ꔹ━━ꔹ [ 𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿 ](https://t.me/SEMO8L) ꔹ━━ꔹ
 -- -- -- -- -- -- -- -- --"""
                      )
 
@@ -784,12 +808,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 5244755240
+ownerhson_id = 5680297831
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري حسين - @N1111V')
+        order = await event.reply('اهـلا مـطـوري سـمـيـر - @DEV_SAMIR')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
