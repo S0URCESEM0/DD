@@ -1,14 +1,14 @@
 {
-    "name": "Sedthon",
+    "name": "𝑺𝑶𝑼𝑹𝑪𝑬 𝑴𝑨𝑿",
     "description": "User bot for telegram !",
     "stack": "container",
-    "repository": "https://github.com/perdark/per-sed",
+    "repository": "https://github.com/S0URCESEM0/DD",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/perdark/per-sed",
+    "website": "https://github.com/S0URCESEM0/DD",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
